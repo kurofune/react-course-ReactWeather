@@ -24,8 +24,15 @@ const React = require('react');
 var About = (props) => {
     return (
         <div>
-            <h3>About</h3>
-            <p>Welcome to the about page</p>
+            <h3 className="text-center">About</h3>
+            <p>This is a weather application built on React.</p>
+            <p>Here are some of the tools I used:</p>
+            <ul>
+                <a target="_blank" href="https://facebook.github.io/react">React</a> - this is the JavaScript framework used.
+            </ul>
+            <ul>
+                <a target="_blank" href="http://openweathermap.org">Open Weather Map</a> - free api to search for weather data by city name
+            </ul>
         </div>
     )
 }
