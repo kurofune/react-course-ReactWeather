@@ -11,7 +11,7 @@ const Examples = require('Examples');
 // load foundation
 require('style-loader!css-loader!foundation-sites/dist/foundation.min.css');
 
-$(document).ready(function($) {
+jQuery(document).ready(function($) {
     $(document).foundation();
 });
 
